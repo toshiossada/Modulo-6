@@ -1,0 +1,15 @@
+@import "variaveis.scss";
+@import "placeholder.scss";
+@import "grid/grid.scss";
+
+*{
+	margin: 0;
+	padding: 0;
+	@extend %border-box;
+	&:before, &:after {
+		@extend %border-box;
+	}	
+
+}
+
+
